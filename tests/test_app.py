@@ -2,6 +2,6 @@ from app import index
 
 
 def test():
-    assert index() == "Hello, world"
+    assert index() == "Welcome to my webiste"
 
 
