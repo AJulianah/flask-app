@@ -17,7 +17,7 @@ def contact():
     return "Email: test@gmail.com"
 
 @app.route("/article")
-def article:
+def article():
     return "This is my first article"
 
 
