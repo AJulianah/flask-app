@@ -5,19 +5,21 @@
 
 - Install python3-venv
 
-- Create virtual environnement
+- Create virtual environnement:
 `python3 -m venv env`
 
-- Activate virtual env
+- Activate virtual env:
 `source /env/bin/activate`
 
-- Install dependencies
+- Install dependencies:
 `pip install -r requirements.txt`
 
-- Launch application
+- Launch application:
 `python3 scr/app.py`
 
-- Launch the test
+- Launch the test:
 `pytest`
+
+- If it show an error when you launch the test: `export PYTHONAPP=src`
 
 
