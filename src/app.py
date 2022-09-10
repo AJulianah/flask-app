@@ -10,8 +10,12 @@ def index():
 
 @app.route("/about")
 def about():
-    return("My name is A.J")
+    return "My name is A.J"
 
+@app.route("/contact"):
+    return "Email: test@gmail.com"
+
+@app.route("/article")
 
 if __name__ == "__main__":
     app.run()
