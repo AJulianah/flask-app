@@ -20,6 +20,6 @@
 - Launch the test:
 `pytest`
 
-- If it show an error when you launch the test: `export PYTHONAPP=src`
+- If it show an error when you launch the test: `export PYTHONPATH=src`
 
 
